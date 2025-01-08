@@ -55,6 +55,8 @@ public class Calculator {
         if (op=='*') mul(num1,num2);
         if (op=='/') div(num1,num2);
     }
+
+    //arithmetic calculate
     void add(int n, int m) {
         String exp = n + " + " + m + " = " + (n+m);
         results.add(exp);
