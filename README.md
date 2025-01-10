@@ -13,9 +13,9 @@ calculator project
 <hr/>
 
 ### Level2: 클래스를 적용해 기본적인 연산을 수행할 수 있는 계산기 만들기
-calculator2/
-  |- Main.java
-  |- Calculator.java
+calculator2/<br/>
+  |- Main.java<br/>
+  |- Calculator.java<br/>
 
 - 클래스 구조를 도입:
   - Main.java: 사용자와 상호작용하며, Calculator를 호출
@@ -24,11 +24,11 @@ calculator2/
 <hr/>
 
 ### Level3: (도전기능)Enum, 제네릭, 람다 & 스트림을 이해한 계산기 만들기
-calculator3/
-  |- Operator.enum
-  |- Main.java
-  |- Calculator.java
-  |- ArithmeticCalculator.java
+calculator3/<br/>
+  |- Operator.enum<br/>
+  |- Main.java<br/>
+  |- Calculator.java<br/>
+  |- ArithmeticCalculator.java<br/>
 
 - 사칙 연산자를 Enum으로 정의.
 - Main을 프로그램의 진입점으로 하여, 사용자 입력을 처리하고 Calculator를 호출하도록 함
