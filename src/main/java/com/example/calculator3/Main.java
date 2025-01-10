@@ -1,22 +1,27 @@
 package com.example.calculator3;
 
-import com.example.calculator2.Calculator;
-
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        ArithmeticCalculator<Double> calculator = new ArithmeticCalculator<>();
+        Calculator calculator = new Calculator();
 
         while (true) {
             // number
             System.out.println("**** CALCULATOR ****");
+            System.out.print("Enter operation (e.g., 2 + 3)\n: ");
             String operation = sc.nextLine();
 
             // calculate
-            calculator.calculate(operation);
+            try {
+                calculator.start(operation);
+            } catch (IllegalArgumentException e) {
+                System.out.println("Error: " + e.getMessage());
+                continue; // Retry on invalid input
+            }
 
+            // options
             System.out.print("[BACK | EXIT | RESULTS ]\n: ");
             String cont = sc.nextLine();
 
