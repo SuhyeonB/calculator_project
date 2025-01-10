@@ -22,7 +22,7 @@ public class Main {
             }
 
             // options
-            System.out.print("[BACK | EXIT | RESULTS ]\n: ");
+            System.out.print("[ BACK | EXIT | RESULTS ]\n: ");
             String cont = sc.nextLine();
 
             if (cont.toLowerCase().equals("exit")) break;

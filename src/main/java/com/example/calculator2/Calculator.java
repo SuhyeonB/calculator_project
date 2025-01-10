@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Calculator {
-    int num1;
-    int num2;
-    char op;
-    List<String> results = new ArrayList<>();
+    private int num1;
+    private int num2;
+    private char op;
+    private List<String> results = new ArrayList<>();
 
     public Calculator() {}
 
